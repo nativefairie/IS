@@ -61,7 +61,7 @@ $(document).ready(function() {
         }).hover(function () {
         $(this).toggleClass('animated pulse');
     });
-    $('.click-text').hover(function(){
+    $('.click-text').click(function(){
         $('.contact__items').toggle()})
     $('.menu__link').on({
         click: function (e) {
