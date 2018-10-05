@@ -14,7 +14,6 @@ $(document).ready(function() {
                 .appendTo('.carousel__items');
         }, 5000);
     }
-
     startSlider();
     $('.carousel__next').click(function () {
         clearInterval(interval);
