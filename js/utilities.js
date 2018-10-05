@@ -61,11 +61,6 @@ $(document).ready(function() {
         }).hover(function () {
         $(this).toggleClass('animated pulse');
     });
-    $('.click-text').hover(function(){
-        $('.contact__items').show();
-    }, function(){
-        $('.contact__items').hide();
-    })
     $('.menu__link').on({
         click: function (e) {
             $(this.hash)
