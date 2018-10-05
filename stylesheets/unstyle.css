@@ -10,9 +10,9 @@ Error: Undefined variable: "$color-white".
 268:   background-color: $color-white;
 269:   transition: top, background-color 1s cubic-bezier(0, 0.76, 0.58, 1);
 270: }
-271: /*!**********************\/
-272: /*HEADER(Carousel)*\/
-273: /**********************!*\/
+271: 
+272: 
+273: 
 
 Backtrace:
 E:/Anything/IS/sass/unstyle.scss:268
@@ -68,4 +68,4 @@ E:/compass.app/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapte
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-white\".\A         on line 268 of E:/Anything/IS/sass/unstyle.scss\A \A 263:   position: fixed;\A 264:   top: -60px;\A 265:   z-index: 10;\A 266:   width: 100%;\A 267:   height: 60px;\A 268:   background-color: $color-white;\A 269:   transition: top, background-color 1s cubic-bezier(0, 0.76, 0.58, 1);\A 270: }\A 271: /*!**********************/\A 272: /*HEADER(Carousel)*/\A 273: /**********************!*/"; }
+  content: "Error: Undefined variable: \"$color-white\".\A         on line 268 of E:/Anything/IS/sass/unstyle.scss\A \A 263:   position: fixed;\A 264:   top: -60px;\A 265:   z-index: 10;\A 266:   width: 100%;\A 267:   height: 60px;\A 268:   background-color: $color-white;\A 269:   transition: top, background-color 1s cubic-bezier(0, 0.76, 0.58, 1);\A 270: }\A 271: \A 272: \A 273: "; }

@@ -36,7 +36,8 @@ $(document).ready(function() {
     }, function () {
         $(this).removeClass("animated swing");
     });
-
+    var close = $('.button-close');
+    close.hover(alert('jsdfhjhdfs'))
     /*scroll button*/
     $('.scroll').click(function () {
         $('html, body').animate({
@@ -55,7 +56,7 @@ $(document).ready(function() {
         })
 
             if($('.hamburger').hasClass("is-active")) {
-                $('.hamburger-label').text("Close").css('color','C20040')
+                $('.hamburger-label').text("Close")
             } else {
                 $('.hamburger-label').text("Menu")
             }
@@ -203,114 +204,4 @@ $(document).ready(function() {
                 pos = i;
         return keys[pos];
     }
-
-// var apiRequest2 = fetch('api.example2.com/search').then(function(response){
-//         return response.json()
-//     });
-// var combinedData = {"apiRequest1":{},"apiRequest2":{}};
-//             Promise.all([apiRequest1,apiRequest2]).then(function(values){
-//                 combinedData["apiRequest1"] = values[0];
-//                 combinedData["apiRequest2"] = values[1];
-//                 return combinedData;
-//             });
-//
-//     (async() => {
-//         const base_url = 'https://intschools-javascript-test.firebaseapp.com';
-//         const API = {
-//             getKeys: async(Key) => {
-//                 try {
-//
-//                     const r1 = await fetch(`${base_url}/getKey`);
-//                     const largestNumber = JSON.parse(r1.json()).then(data => {
-//                         keys = Object.keys(data);
-//                         values = Object.values(data);
-//                         max = 0;
-//                         pos = 0;
-//
-//                         function maxPos(value) {
-//                             max = (max < value) ? value : max
-//                             return max;
-//                         }
-//
-//                         function keyAtMaxPos() {
-//                             for (i = 0; i < values.length; i++)
-//                                 if (values[i] == max)
-//                                     pos = i;
-//                             return keys[pos];
-//                         }
-//
-//                         values.forEach(maxPos);
-//                         largestNumber = keyAtMaxPos();
-//                     }
-//                     console.log('Largest number', largestNumber);
-//
-//                     const r2 = await fetch(`${base_url}artist/albums/?artist_id=${artistID}`);
-//                     const trackID = JSON.parse(response.json()).message.body.album_list[0].album.album_id;
-//
-//                     console.log('Random Track ID is:', trackID);
-//
-//                     const r3 = await fetch(`${base_url}artist/album/songsnippet?track_id=${trackID}`);
-//
-//                     const lyricSnippet = JSON.parse(response.json()).message;
-//                     console.log('Track Id lyric snippet is:', lyricSnippet);
-//                     return lyricSnippet;
-//                 } catch (e) {
-//
-//                     console.error(e);
-//                 }
-//
-//             }
-//         }
-//
-//
-//
-//         try {
-//             const art = await API.getArtistLyric('Prodigy');
-//             console.log(art);
-//         } catch (e ){
-//             console.error(e);
-//         }
-
- //   })()
- //    const base_url = 'https://intschools-javascript-test.firebaseapp.com';
- //    // var stage2 = fetch(base_url + '/getKey?key=' + values[i] + '&stage=2').then(function(response){
- //    //     return response.json()
- //    // }).then(data => {
- //    //     keys = Object.keys(data);
- //    //     values = Object.values(data)
- //    //     console.log(keys, values)});
- //    fetch(base_url + '/getKey')
- //    // Load it as json
- //        .then(response => response.json())
- //        .then(data => {
- //            keys = Object.keys(data);
- //            values = Object.values(data);
- //            max = 0;
- //            pos = 0;
- //            function maxPos(value) {
- //                max = (max < value) ? value : max
- //                return max;
- //            }
- //            function keyAtMaxPos() {
- //                for(i=0; i< values.length; i++)
- //                    if(values[i] == max)
- //                        pos = i;
- //                return keys[pos];
- //            }
- //            values.forEach(maxPos);
- //            keyAtMaxPos();
- //            return fetch(base_url + '/getKey?key=' + keyAtMaxPos() + '&stage=1');})
- //        .then(response => response.json())
- //        .then(data => {
- //            values = Object.values(data)
- //            for (let i = 0; i < values.length; i++) {
- //                this["Key"+i] = values[i];
- //            }
- //            return fetch(base_url + '/getKey?key=' + this.Key1 + '&stage=2');})
- //        .then(response => response.json())
- //        .then(data => {
- //            values = Object.values(data);
- //            console.log(values)
- //        })
- //        .catch(error => alert(error + "All requests will fail on average 1/5 times. Lucky you"));
 });
