@@ -790,24 +790,24 @@ body .logo {
   transition: 0.15s ease;
 }
 /* line 164, ../sass/style.scss */
-.fixed .contact:hover .arrow {
+.fixed .contact:hover .fixed .contact:active .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
 /* line 168, ../sass/style.scss */
-.fixed .contact:hover .arrow:before {
+.fixed .contact:hover .fixed .contact:active .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
 /* line 173, ../sass/style.scss */
-.fixed .contact:hover .arrow:after {
+.fixed .contact:hover .fixed .contact:active .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
 /* line 178, ../sass/style.scss */
-.fixed .contact:hover ul {
+.fixed .contact:hover ul .fixed .contact:active {
   opacity: 0.7;
   height: 150px;
 }
@@ -874,7 +874,7 @@ body .logo {
   cursor: pointer;
 }
 /* line 240, ../sass/style.scss */
-.fixed .contact li:hover {
+.fixed .contact li:hover .fixed .contact li:active {
   color: #c60041;
 }
 /* line 244, ../sass/style.scss */
@@ -1313,7 +1313,7 @@ header .carousel__next {
   top: 50%;
   z-index: 12;
   width: 40px;
-  height: 60px;
+  height: 40px;
   text-align: center;
 }
 /* line 678, ../sass/style.scss */

@@ -161,21 +161,21 @@ body {
     width: 170px;
     display: block;
     transition: 0.15s ease;
-    &:hover .arrow {
+    &:hover &:active .arrow {
       -webkit-transform: rotate(45deg) translate(-5px, -5px);
       transform: rotate(45deg) translate(-5px, -5px);
     }
-    &:hover .arrow:before {
+    &:hover &:active .arrow:before {
       -webkit-transform: translate(10px, 0);
       transform: translate(10px, 0);
       background-color: $color-pink;
     }
-    &:hover .arrow:after {
+    &:hover &:active .arrow:after {
       -webkit-transform: rotate(90deg) translate(10px, 0);
       transform: rotate(90deg) translate(10px, 0);
       background-color: $color-pink;
     }
-    &:hover ul {
+    &:hover ul &:active {
       opacity: 0.7;
       height: 150px;
     }
@@ -237,7 +237,7 @@ body {
       padding: 12px 15px;
       text-align: center;
       cursor: pointer;
-      &:hover {
+      &:hover  &:active{
         color: lighten($color-pink, .7);
       }
     }
@@ -672,7 +672,7 @@ header{
     top:50%;
     z-index:12;
     width: 40px;
-    height: 60px;
+    height: 40px;
     text-align:center;
   }
   label[for=carousel-1],label[for=carousel-2]{
