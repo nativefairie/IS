@@ -46,9 +46,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="14" />
-          <entry key="html" value="2255" />
-          <entry key="js" value="10041" />
-          <entry key="scss" value="8808" />
+          <entry key="html" value="2258" />
+          <entry key="js" value="10068" />
+          <entry key="scss" value="8991" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -56,9 +56,9 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Enforced Plain Text" value="12" />
-          <entry key="HTML" value="2255" />
-          <entry key="JavaScript" value="10041" />
-          <entry key="SCSS" value="8808" />
+          <entry key="HTML" value="2258" />
+          <entry key="JavaScript" value="10068" />
+          <entry key="SCSS" value="8991" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="179">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -84,13 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="334">
+              <caret line="494" column="9" lean-forward="true" selection-start-line="494" selection-start-column="9" selection-end-line="494" selection-end-column="9" />
               <folding>
                 <element signature="e#102#153#0" />
                 <element signature="e#166#485#0" />
                 <element signature="e#487#542#0" />
-                <element signature="e#4972#5022#0" />
               </folding>
             </state>
           </provider>
@@ -99,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/utilities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+            <state relative-caret-position="111">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -126,13 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>head</find>
-      <find>focus</find>
-      <find>second</find>
-      <find>popup-fir</find>
-      <find>hambu</find>
-      <find>hamburger</find>
-      <find>is-a</find>
       <find>remove</find>
       <find>hambur</find>
       <find>transi</find>
@@ -147,15 +139,22 @@
       <find>mobi</find>
       <find>nex</find>
       <find>scro</find>
-      <find>fixed</find>
       <find>label</find>
       <find>static</find>
       <find>co</find>
-      <find>close</find>
-      <find>contac</find>
-      <find>next</find>
-      <find>contact</find>
       <find>logo</find>
+      <find>menu</find>
+      <find>contac</find>
+      <find>active</find>
+      <find>.active</find>
+      <find>next</find>
+      <find>is</find>
+      <find>sm</find>
+      <find>is-</find>
+      <find>is-a</find>
+      <find>close</find>
+      <find>contact</find>
+      <find>fixed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,8 +176,8 @@
         <option value="$PROJECT_DIR$/sass/unstyle.scss" />
         <option value="$PROJECT_DIR$/../JS-Test.html" />
         <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/js/utilities.js" />
       </list>
     </option>
@@ -287,12 +286,12 @@
       <workItem from="1538254941719" duration="7752000" />
       <workItem from="1538297568941" duration="106152000" />
       <workItem from="1538633557620" duration="1456000" />
-      <workItem from="1538635949935" duration="57216000" />
+      <workItem from="1538635949935" duration="59426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296014000" />
+    <option name="totallyTimeSpent" value="298224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -465,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="179">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -475,21 +474,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        <state relative-caret-position="334">
+          <caret line="494" column="9" lean-forward="true" selection-start-line="494" selection-start-column="9" selection-end-line="494" selection-end-column="9" />
           <folding>
             <element signature="e#102#153#0" />
             <element signature="e#166#485#0" />
             <element signature="e#487#542#0" />
-            <element signature="e#4972#5022#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utilities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        <state relative-caret-position="111">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

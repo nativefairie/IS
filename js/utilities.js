@@ -12,7 +12,7 @@ $(document).ready(function() {
     .appendTo('.carousel__items');
     }, 5000);
     }
-    // startSlider();
+    startSlider();
     $('.carousel__next').click(function () {
         clearInterval(interval);
         startSlider()
@@ -36,7 +36,7 @@ $(document).ready(function() {
     }, function () {
         $(this).removeClass("animated swing");
     });
-    var close = $('.button-close');
+
     /*scroll button*/
     $('.scroll').click(function () {
         $('html, body').animate({
