@@ -39,6 +39,7 @@ $(document).ready(function() {
         $(this).removeClass("animated swing");
     });
     var close = $('.button-close');
+
     /*scroll button*/
     $('.scroll').click(function () {
         $('html, body').animate({
