@@ -65,7 +65,7 @@ body {
     font-weight: lighter;
     @include breakpoint(sm){
       & {
-        top: 80px;
+        top: 90px;
       }
     }
     @include breakpoint(md) {

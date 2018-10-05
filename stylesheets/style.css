@@ -685,7 +685,7 @@ body .logo {
 @media (max-width: 376px) {
   /* line 67, ../sass/style.scss */
   body .logo {
-    top: 80px;
+    top: 90px;
   }
 }
 @media (max-width: 768px) {
@@ -1355,12 +1355,9 @@ header .carousel__item img {
   /* line 163, ../sass/partials/_carousel.scss */
   header .carousel__item {
     right: 0;
+    left: -200px;
   }
-  /* line 166, ../sass/partials/_carousel.scss */
-  header .carousel__item:last-child {
-    left: auto;
-  }
-  /* line 169, ../sass/partials/_carousel.scss */
+  /* line 167, ../sass/partials/_carousel.scss */
   header .carousel__item img {
     width: 200vw;
   }

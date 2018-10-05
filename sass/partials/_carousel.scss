@@ -162,9 +162,7 @@ BREAKPOINTS
       @include breakpoint(sm){
         &{
           right: 0;
-        }
-        &:last-child{
-          left:auto;
+          left:-200px;
         }
         img {
           width: 200vw;
