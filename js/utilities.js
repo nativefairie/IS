@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
     startSlider();
     $('.carousel__next').click(function () {
-        clearInterval();
+        clearInterval(interval);
         startSlider()
     });
 
