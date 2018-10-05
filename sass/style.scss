@@ -517,7 +517,11 @@ body {
   z-index: 10;
   text-align: center;
   transition: all 1s ease-in;
-
+@include breakpoint(sm) {
+  &{
+    transition: all 0.3s ease-in;
+  }
+}
   .share{
     display: none;
   }

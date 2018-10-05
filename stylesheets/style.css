@@ -1104,11 +1104,17 @@ body .logo {
   text-align: center;
   transition: all 1s ease-in;
 }
-/* line 521, ../sass/style.scss */
+@media (max-width: 376px) {
+  /* line 521, ../sass/style.scss */
+  .static {
+    transition: all 0.3s ease-in;
+  }
+}
+/* line 525, ../sass/style.scss */
 .static .share {
   display: none;
 }
-/* line 524, ../sass/style.scss */
+/* line 528, ../sass/style.scss */
 .static .hamburger {
   left: 0%;
   z-index: 1000;
@@ -1117,17 +1123,17 @@ body .logo {
   color: #fff;
   margin: 10px;
 }
-/* line 532, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 .static .hamburger-box {
   margin-right: 15px;
 }
-/* line 535, ../sass/style.scss */
+/* line 539, ../sass/style.scss */
 .static .hamburger-label {
   color: #fff;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 542, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .static .contact {
   text-transform: uppercase;
   position: absolute;
@@ -1144,29 +1150,29 @@ body .logo {
   display: block;
   transition: 0.15s ease;
 }
-/* line 557, ../sass/style.scss */
+/* line 561, ../sass/style.scss */
 .static .contact:hover .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
-/* line 561, ../sass/style.scss */
+/* line 565, ../sass/style.scss */
 .static .contact:hover .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
-/* line 566, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 .static .contact:hover .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
-/* line 571, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 .static .contact:hover ul {
   opacity: 0.7;
   height: 120px;
 }
-/* line 576, ../sass/style.scss */
+/* line 580, ../sass/style.scss */
 .static .contact .arrow {
   width: 13px;
   height: 13px;
@@ -1181,7 +1187,7 @@ body .logo {
   transform: rotate(45deg);
   float: right;
 }
-/* line 590, ../sass/style.scss */
+/* line 594, ../sass/style.scss */
 .static .contact .arrow:before, .static .contact .arrow:after {
   position: absolute;
   content: "";
@@ -1191,7 +1197,7 @@ body .logo {
   background-color: #fff;
   transition: 0.4s ease;
 }
-/* line 599, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 .static .contact .arrow:after {
   position: absolute;
   -webkit-transform: rotate(90deg);
@@ -1199,7 +1205,7 @@ body .logo {
   top: -5px;
   left: 5px;
 }
-/* line 607, ../sass/style.scss */
+/* line 611, ../sass/style.scss */
 .static .contact .click-text {
   display: block;
   text-align: left;
@@ -1209,11 +1215,11 @@ body .logo {
   color: #fff;
   transition: 0.15s ease;
 }
-/* line 616, ../sass/style.scss */
+/* line 620, ../sass/style.scss */
 .static .contact .click-text:hover {
   color: white;
 }
-/* line 620, ../sass/style.scss */
+/* line 624, ../sass/style.scss */
 .static .contact ul {
   background-color: transparent;
   color: white;
@@ -1224,7 +1230,7 @@ body .logo {
   opacity: 0;
   transition: 0.4s ease;
 }
-/* line 631, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 .static .contact li {
   list-style-type: none;
   margin: 0 auto;
@@ -1232,25 +1238,25 @@ body .logo {
   text-align: left;
   cursor: pointer;
 }
-/* line 637, ../sass/style.scss */
+/* line 641, ../sass/style.scss */
 .static .contact li a {
   color: #fff;
   opacity: .9;
 }
-/* line 641, ../sass/style.scss */
+/* line 645, ../sass/style.scss */
 .static .contact li:hover {
   color: #c60041;
 }
-/* line 645, ../sass/style.scss */
+/* line 649, ../sass/style.scss */
 .static .contact li:first-child {
   margin-top: 12px;
 }
-/* line 648, ../sass/style.scss */
+/* line 652, ../sass/style.scss */
 .static .contact li:last-child {
   margin-bottom: 12px;
 }
 
-/* line 654, ../sass/style.scss */
+/* line 658, ../sass/style.scss */
 .scroll {
   width: 100px;
   background-color: transparent;
@@ -1265,21 +1271,21 @@ body .logo {
   cursor: pointer;
   transition: top 2s ease-in-out;
 }
-/* line 668, ../sass/style.scss */
+/* line 672, ../sass/style.scss */
 .scroll span {
   color: #fff;
 }
-/* line 671, ../sass/style.scss */
+/* line 675, ../sass/style.scss */
 .scroll:hover {
   top: -50px;
 }
 
-/* line 676, ../sass/style.scss */
+/* line 680, ../sass/style.scss */
 header {
   width: 100%;
   background-color: black;
 }
-/* line 679, ../sass/style.scss */
+/* line 683, ../sass/style.scss */
 header .overlay {
   background-image: linear-gradient(to left, black 20%, transparent 80%), linear-gradient(to top, black 20%, transparent 60%), linear-gradient(to bottom, black 10%, transparent 30%);
   width: 100%;
@@ -1291,7 +1297,7 @@ header .overlay {
   z-index: 10;
   transition: opacity .5s;
 }
-/* line 691, ../sass/style.scss */
+/* line 695, ../sass/style.scss */
 header:hover .overlay {
   opacity: .6;
   transition: opacity .5s;
@@ -1355,7 +1361,7 @@ header .carousel__item img {
     width: 200vw;
   }
 }
-/* line 698, ../sass/style.scss */
+/* line 702, ../sass/style.scss */
 header .carousel__next {
   position: absolute;
   right: 2%;
@@ -1365,7 +1371,7 @@ header .carousel__next {
   z-index: 12;
   text-align: center;
 }
-/* line 707, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 header label[for=carousel-1], header label[for=carousel-2] {
   text-align: center;
   display: inline-block;
@@ -1375,14 +1381,14 @@ header label[for=carousel-1], header label[for=carousel-2] {
   background-color: white;
   opacity: .6;
 }
-/* line 715, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 header label[for=carousel-1]:hover, header label[for=carousel-1]:active, header label[for=carousel-2]:hover, header label[for=carousel-2]:active {
   transform: rotate(360deg);
   border: 1px dotted black;
   box-shadow: 0 0 0 3px white;
   opacity: 1;
 }
-/* line 722, ../sass/style.scss */
+/* line 726, ../sass/style.scss */
 header label + label {
   margin-top: 10px;
 }

@@ -48,7 +48,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2254" />
           <entry key="js" value="9944" />
-          <entry key="scss" value="8681" />
+          <entry key="scss" value="8700" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -58,7 +58,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2254" />
           <entry key="JavaScript" value="9944" />
-          <entry key="SCSS" value="8681" />
+          <entry key="SCSS" value="8700" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="684" column="23" selection-start-line="684" selection-start-column="23" selection-end-line="684" selection-end-column="23" />
+            <state relative-caret-position="332">
+              <caret line="521" column="27" lean-forward="true" selection-start-line="521" selection-start-column="27" selection-end-line="521" selection-end-column="27" />
               <folding>
                 <element signature="e#102#153#0" />
                 <element signature="e#166#485#0" />
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="179">
+              <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>caro</find>
       <find>popup</find>
       <find>getTot</find>
       <find>overla</find>
@@ -156,6 +155,7 @@
       <find>fixed</find>
       <find>label</find>
       <find>contact</find>
+      <find>static</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/../JS-Test.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/utilities.js" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1538254941719" duration="7752000" />
       <workItem from="1538297568941" duration="106152000" />
       <workItem from="1538633557620" duration="1456000" />
-      <workItem from="1538635949935" duration="53962000" />
+      <workItem from="1538635949935" duration="54147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292760000" />
+    <option name="totallyTimeSpent" value="292945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -466,19 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="684" column="23" selection-start-line="684" selection-start-column="23" selection-end-line="684" selection-end-column="23" />
-          <folding>
-            <element signature="e#102#153#0" />
-            <element signature="e#166#485#0" />
-            <element signature="e#487#542#0" />
-            <element signature="e#4972#5022#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/utilities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-476">
@@ -488,8 +475,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="179">
+          <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="521" column="27" lean-forward="true" selection-start-line="521" selection-start-column="27" selection-end-line="521" selection-end-column="27" />
+          <folding>
+            <element signature="e#102#153#0" />
+            <element signature="e#166#485#0" />
+            <element signature="e#487#542#0" />
+            <element signature="e#4972#5022#0" />
+          </folding>
         </state>
       </provider>
     </entry>
