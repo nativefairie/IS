@@ -163,6 +163,9 @@ BREAKPOINTS
         &{
           right: 0;
         }
+        &:last-child{
+          left:auto;
+        }
         img {
           width: 200vw;
         }

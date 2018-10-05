@@ -187,7 +187,7 @@ $(document).ready(function() {
         var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
         var drawLength = pathLength * scrollPercentage;
         path.style.strokeDashoffset = pathLength - drawLength;
-        if(scrollPercentage) {
+        if(scrollPercentage> 10) {
             stickyNav.removeClass('static slideInUp').addClass("fixed animated slideInDown");
         }
         else {

@@ -1357,6 +1357,10 @@ header .carousel__item img {
     right: 0;
   }
   /* line 166, ../sass/partials/_carousel.scss */
+  header .carousel__item:last-child {
+    left: auto;
+  }
+  /* line 169, ../sass/partials/_carousel.scss */
   header .carousel__item img {
     width: 200vw;
   }
@@ -1366,8 +1370,8 @@ header .carousel__next {
   position: absolute;
   right: 2%;
   top: 50%;
-  width: 20px;
-  height: 40px;
+  width: 40px;
+  height: 60px;
   z-index: 12;
   text-align: center;
 }
@@ -1376,7 +1380,7 @@ header label[for=carousel-1], header label[for=carousel-2] {
   text-align: center;
   display: inline-block;
   border-radius: 100%;
-  padding: 4px 5px 4px 5px;
+  padding: 5px 4px 5px 4px;
   transition: all 1s ease;
   background-color: white;
   opacity: .6;
@@ -1390,5 +1394,5 @@ header label[for=carousel-1]:hover, header label[for=carousel-1]:active, header 
 }
 /* line 726, ../sass/style.scss */
 header label + label {
-  margin-top: 10px;
+  margin-top: 5px;
 }
