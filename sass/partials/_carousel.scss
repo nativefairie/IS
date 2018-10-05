@@ -1,0 +1,164 @@
+%animation-default {
+  opacity: 1 !important;
+  z-index: 3;
+}
+
+/* @include transition(all,2s,ease-out); */
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+  -webkit-transition: $what $time $how;
+  -moz-transition:    $what $time $how;
+  -ms-transition:     $what $time $how;
+  -o-transition:      $what $time $how;
+  transition:         $what $time $how;
+}
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == sm {
+    @media (min-width: 320px) { @content ; }
+  }
+  @else if $point == md {
+    @media (min-width: 768px) { @content ; }
+  }
+  @else if $point == lg {
+    @media (min-width: 1024px) { @content ; }
+  }
+}
+
+@mixin plusMinus($width, $lineWidth, $color, $hoverColor) {
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  width: $width;
+  height: $width;
+  transform: rotate(180deg);
+  position: relative;
+
+  &:hover {
+    transform: rotate(0deg);
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: $width;
+    height:0px;
+    border-bottom: solid $lineWidth $color;
+    position: absolute;
+    bottom:$width /2 - $lineWidth/2;
+    transform: rotate(90deg);
+    transition: width 0.3s;
+  }
+  &:hover::before{
+    content: '';
+    display: block;
+    width: 0;
+    height:0;
+    border-bottom: solid $lineWidth $color;
+    position: absolute;
+    bottom:$width /2 - $lineWidth/2;
+    transform: rotate(90deg);
+  }
+  &:hover::after, &:active::after {
+    border-bottom: solid $lineWidth $hoverColor;
+  }
+  &::after {
+    content: '';
+    display: block;
+    width: $width;
+    height:1px;
+    border-bottom: solid $lineWidth $color;
+    position: absolute;
+    bottom:$width /2 - $lineWidth/2;
+  }
+}
+
+@mixin carousel($items, $animation: 'default') {
+  .carousel {
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    > input[type="radio"] {
+      position: absolute;
+      display:none;
+
+      &:checked {
+        ~ .carousel__items .carousel__item {
+          opacity: 0;
+        }
+      ~ .carousel__next > label {
+          opacity: 1;
+        }
+      }
+
+      @for $i from 1 through $items {
+        &:nth-child(#{$i}) {
+          &:checked {
+            ~ .carousel__items .carousel__item, ~ .carousel__next > label {
+              @if $animation == 'default' {
+                &:nth-child(#{$i}) {
+                  opacity: 1;
+                }
+              }
+            }
+
+            ~ .carousel__next {
+              > label[for="carousel-1"] {
+                @if $i == 1 {
+                  &:nth-child(#{$items}) {
+                    @extend %animation-default;
+                  }
+                } @else if $i == $items {
+                  &:nth-child(#{$items - 1}) {
+                    @extend %animation-default;
+                  }
+                } @else {
+                  &:nth-child(#{$i - 1}) {
+                    @extend %animation-default;
+                  }
+                }
+              }
+            }
+
+            ~ .carousel__next {
+              > label[for="carousel-2"] {
+                @if $i == $items {
+                  &:nth-child(1) {
+                    @extend %animation-default;
+                  }
+                } @else {
+                  &:nth-child(#{$i + 1}) {
+                    @extend %animation-default;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__items {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      position: relative;
+    }
+
+    &__item {
+      position: absolute;
+      top: 0;
+      margin:0;
+      padding:0;
+      left: 0;
+      transition: opacity 1s;
+      -webkit-transition: opacity 1s;
+      img {
+        width: 100vw;
+      }
+    }
+  }
+}
