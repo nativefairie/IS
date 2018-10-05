@@ -48,7 +48,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2254" />
           <entry key="js" value="9944" />
-          <entry key="scss" value="8677" />
+          <entry key="scss" value="8679" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -58,7 +58,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2254" />
           <entry key="JavaScript" value="9944" />
-          <entry key="SCSS" value="8677" />
+          <entry key="SCSS" value="8679" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="709" column="34" lean-forward="true" selection-start-line="709" selection-start-column="34" selection-end-line="709" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="684" column="23" selection-start-line="684" selection-start-column="23" selection-end-line="684" selection-end-column="23" />
               <folding>
                 <element signature="e#102#153#0" />
                 <element signature="e#166#485#0" />
@@ -287,12 +287,12 @@
       <workItem from="1538254941719" duration="7752000" />
       <workItem from="1538297568941" duration="106152000" />
       <workItem from="1538633557620" duration="1456000" />
-      <workItem from="1538635949935" duration="53591000" />
+      <workItem from="1538635949935" duration="53745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292389000" />
+    <option name="totallyTimeSpent" value="292543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -482,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="709" column="34" lean-forward="true" selection-start-line="709" selection-start-column="34" selection-end-line="709" selection-end-column="34" />
+        <state relative-caret-position="264">
+          <caret line="684" column="23" selection-start-line="684" selection-start-column="23" selection-end-line="684" selection-end-column="23" />
           <folding>
             <element signature="e#102#153#0" />
             <element signature="e#166#485#0" />
