@@ -816,24 +816,24 @@ body .logo {
   transition: 0.15s ease;
 }
 /* line 185, ../sass/style.scss */
-.fixed .contact:hover .arrow {
+.fixed .contact:hover .arrow, .fixed .contact:active .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
 /* line 189, ../sass/style.scss */
-.fixed .contact:hover .arrow:before {
+.fixed .contact:hover .arrow:before, .fixed .contact:active .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
 /* line 194, ../sass/style.scss */
-.fixed .contact:hover .arrow:after {
+.fixed .contact:hover .arrow:after, .fixed .contact:active .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
 /* line 199, ../sass/style.scss */
-.fixed .contact:hover ul {
+.fixed .contact:hover ul, .fixed .contact:active ul {
   opacity: 0.7;
   height: 150px;
 }
@@ -884,7 +884,7 @@ body .logo {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   color: #4d4d4d;
-  margin-top: -8px;
+  margin-top: -10px;
   padding: 0px;
   height: 0;
   overflow: hidden;
@@ -1151,24 +1151,24 @@ body .logo {
   transition: 0.15s ease;
 }
 /* line 561, ../sass/style.scss */
-.static .contact:hover .arrow {
+.static .contact:hover .arrow, .static .contact:active .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
 /* line 565, ../sass/style.scss */
-.static .contact:hover .arrow:before {
+.static .contact:hover .arrow:before, .static .contact:active .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
 /* line 570, ../sass/style.scss */
-.static .contact:hover .arrow:after {
+.static .contact:hover .arrow:after, .static .contact:active .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
 /* line 575, ../sass/style.scss */
-.static .contact:hover ul {
+.static .contact:hover ul, .static .contact:active ul {
   opacity: 0.7;
   height: 120px;
 }
