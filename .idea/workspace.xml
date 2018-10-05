@@ -48,7 +48,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2254" />
           <entry key="js" value="9944" />
-          <entry key="scss" value="8679" />
+          <entry key="scss" value="8681" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -58,7 +58,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2254" />
           <entry key="JavaScript" value="9944" />
-          <entry key="SCSS" value="8679" />
+          <entry key="SCSS" value="8681" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -99,17 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/utilities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
+            <state relative-caret-position="-476">
               <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="161" column="30" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="30" />
+            <state relative-caret-position="195">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -129,7 +129,6 @@
       <find>caro</find>
       <find>popup</find>
       <find>getTot</find>
-      <find>label</find>
       <find>overla</find>
       <find>head</find>
       <find>focus</find>
@@ -154,8 +153,9 @@
       <find>next</find>
       <find>scro</find>
       <find>close</find>
-      <find>contact</find>
       <find>fixed</find>
+      <find>label</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/../JS-Test.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/utilities.js" />
-        <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1538254941719" duration="7752000" />
       <workItem from="1538297568941" duration="106152000" />
       <workItem from="1538633557620" duration="1456000" />
-      <workItem from="1538635949935" duration="53745000" />
+      <workItem from="1538635949935" duration="53962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292543000" />
+    <option name="totallyTimeSpent" value="292760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -466,20 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/utilities.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="161" column="30" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -490,6 +476,20 @@
             <element signature="e#487#542#0" />
             <element signature="e#4972#5022#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/utilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
