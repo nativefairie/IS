@@ -11,12 +11,11 @@ $(document).ready(function() {
     .appendTo('.carousel__items');
     }, 5000);
     }
-    // startSlider();
+    startSlider();
     $('.carousel__next').click(function () {
         clearInterval(interval);
         startSlider()
     });
-
     /*resizing functions for carousel(chose to work with child absolute positioned)*/
     var $child = $('.carousel__item');
     var $parent = $('.carousel__items');
@@ -183,9 +182,6 @@ $(document).ready(function() {
         var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
         var drawLength = pathLength * scrollPercentage;
         path.style.strokeDashoffset = pathLength - drawLength;
-        if($(window).width()<400){
-            stickyNav.addClass("fixed animated slideInDown")
-        }
         if(scrollPercentage) {
             stickyNav.removeClass('static slideInUp').addClass("fixed animated slideInDown");
         }

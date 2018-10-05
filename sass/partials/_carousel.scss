@@ -97,7 +97,7 @@ BREAKPOINTS
       @for $i from 1 through $items {
         &:nth-child(#{$i}) {
           &:checked {
-            ~ .carousel__items .carousel__item, ~ .carousel__next > label {
+            ~ .carousel__items .carousel__item{
               @if $animation == 'default' {
                 &:nth-child(#{$i}) {
                   opacity: 1;
@@ -159,6 +159,15 @@ BREAKPOINTS
       img {
         width: 100vw;
       }
+
+        @include breakpoint(md){
+          &__item {
+            right: 0;
+          }
+          img {
+            width: 50vw;
+          }
+        }
     }
   }
 }

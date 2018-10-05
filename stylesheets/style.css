@@ -790,24 +790,24 @@ body .logo {
   transition: 0.15s ease;
 }
 /* line 164, ../sass/style.scss */
-.fixed .contact:hover .fixed .contact:active .arrow {
+.fixed .contact:hover .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
 /* line 168, ../sass/style.scss */
-.fixed .contact:hover .fixed .contact:active .arrow:before {
+.fixed .contact:hover .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
 /* line 173, ../sass/style.scss */
-.fixed .contact:hover .fixed .contact:active .arrow:after {
+.fixed .contact:hover .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
 /* line 178, ../sass/style.scss */
-.fixed .contact:hover ul .fixed .contact:active {
+.fixed .contact:hover ul {
   opacity: 0.7;
   height: 150px;
 }
@@ -874,7 +874,7 @@ body .logo {
   cursor: pointer;
 }
 /* line 240, ../sass/style.scss */
-.fixed .contact li:hover .fixed .contact li:active {
+.fixed .contact li:hover {
   color: #c60041;
 }
 /* line 244, ../sass/style.scss */
@@ -1454,11 +1454,11 @@ header .carousel > input[type="radio"]:checked ~ .carousel__next > label {
   opacity: 1;
 }
 /* line 102, ../sass/partials/_carousel.scss */
-header .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__items .carousel__item:nth-child(1), header .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__next > label:nth-child(1) {
+header .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__items .carousel__item:nth-child(1) {
   opacity: 1;
 }
 /* line 102, ../sass/partials/_carousel.scss */
-header .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__items .carousel__item:nth-child(2), header .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__next > label:nth-child(2) {
+header .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__items .carousel__item:nth-child(2) {
   opacity: 1;
 }
 /* line 144, ../sass/partials/_carousel.scss */
@@ -1482,14 +1482,24 @@ header .carousel__item {
 header .carousel__item img {
   width: 100vw;
 }
+@media (min-width: 768px) {
+  /* line 164, ../sass/partials/_carousel.scss */
+  header .carousel__item__item {
+    right: 0;
+  }
+  /* line 167, ../sass/partials/_carousel.scss */
+  header .carousel__item img {
+    width: 50vw;
+  }
+}
 /* line 828, ../sass/style.scss */
 header .carousel__next {
   position: absolute;
   right: 2%;
   top: 50%;
-  z-index: 12;
-  width: 40px;
+  width: 20px;
   height: 40px;
+  z-index: 12;
   text-align: center;
 }
 /* line 837, ../sass/style.scss */
@@ -1497,7 +1507,7 @@ header label[for=carousel-1], header label[for=carousel-2] {
   text-align: center;
   display: inline-block;
   border-radius: 100%;
-  padding: 7px;
+  padding: 7px 5px 7px 5px;
   transition: all 1s ease;
   background-color: white;
   opacity: .6;
