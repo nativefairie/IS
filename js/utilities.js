@@ -39,7 +39,6 @@ $(document).ready(function() {
         $(this).removeClass("animated swing");
     });
     var close = $('.button-close');
-
     /*scroll button*/
     $('.scroll').click(function () {
         $('html, body').animate({
@@ -51,7 +50,6 @@ $(document).ready(function() {
         $(this).toggleClass("is-active");
         $('.menu').toggleClass('menu--active');
         $('.glow').toggleClass('glow--active').on('click', function () {
-            $('.glow').toggleClass('glow--active').on('click', function () {
                 $('.menu').removeClass('menu--active')
                 $('.hamburger').removeClass('is-active')
                 $('.hamburger-label').text("Menu")
@@ -118,4 +116,3 @@ $(document).ready(function() {
             }
         });
     });
-});
