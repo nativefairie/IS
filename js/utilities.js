@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    // document.addEventListener("touchstart", function () {
-    // }, false);
+    document.addEventListener("touchstart", function () {
+    }, false);
     var doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
     /*Carousel functions*/

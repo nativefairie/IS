@@ -792,6 +792,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
 .fixed .contact {
   text-transform: uppercase;
   position: absolute;
+  pointer-events: auto;
   top: 15px;
   right: 0;
   z-index: 7;
@@ -800,33 +801,33 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   text-align: center;
   margin: 10px 0 10px 20px;
   padding: 5px 5px 0 5px;
-  width: 150px;
+  width: 170px;
   display: block;
   transition: 0.15s ease;
 }
-/* line 178, ../sass/style.scss */
-.fixed .contact:hover .arrow, .fixed .contact:active .arrow {
+/* line 179, ../sass/style.scss */
+.fixed .contact:hover .arrow, .fixed .contact:active .arrow, .fixed .contact:focus .arrow, .fixed .contact:link .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
-/* line 182, ../sass/style.scss */
-.fixed .contact:hover .arrow:before, .fixed .contact:active .arrow:before {
+/* line 183, ../sass/style.scss */
+.fixed .contact:hover .arrow:before, .fixed .contact:active .arrow:before, .fixed .contact:focus .arrow:before, .fixed .contact:link .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
-/* line 187, ../sass/style.scss */
-.fixed .contact:hover .arrow:after, .fixed .contact:active .arrow:after {
+/* line 188, ../sass/style.scss */
+.fixed .contact:hover .arrow:after, .fixed .contact:active .arrow:after, .fixed .contact:focus .arrow:after, .fixed .contact:link .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
-/* line 192, ../sass/style.scss */
-.fixed .contact:hover ul, .fixed .contact:active ul, .fixed .contact:focus ul {
+/* line 193, ../sass/style.scss */
+.fixed .contact:hover ul, .fixed .contact:active ul, .fixed .contact:focus ul, .fixed .contact:link ul {
   opacity: 0.7;
   height: 120px;
 }
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .fixed .contact .arrow {
   width: 13px;
   height: 13px;
@@ -841,7 +842,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   transform: rotate(45deg);
   float: right;
 }
-/* line 211, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .fixed .contact .arrow:before, .fixed .contact .arrow:after {
   position: absolute;
   content: "";
@@ -851,7 +852,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   background-color: #4d4d4d;
   transition: 0.4s ease;
 }
-/* line 220, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .fixed .contact .arrow:after {
   position: absolute;
   -webkit-transform: rotate(90deg);
@@ -859,17 +860,17 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   top: -5px;
   left: 5px;
 }
-/* line 228, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .fixed .contact .click-text {
   display: block;
   text-align: left;
-  padding: 0 20px 5px;
+  padding: 0 30px 4px;
   margin: 0;
   cursor: pointer;
   color: #4d4d4d;
   transition: 0.15s ease;
 }
-/* line 238, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .fixed .contact ul {
   animation-delay: .5s;
   background-color: #fff;
@@ -880,7 +881,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   overflow: hidden;
   transition: 0.4s ease;
 }
-/* line 248, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .fixed .contact ul li {
   list-style-type: none;
   margin: 0 auto;
@@ -888,60 +889,60 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   text-align: center;
   cursor: pointer;
 }
-/* line 254, ../sass/style.scss */
-.fixed .contact ul li:hover, .fixed .contact ul li:active, .fixed .contact ul li:focus {
+/* line 256, ../sass/style.scss */
+.fixed .contact ul li:hover, .fixed .contact ul li:active, .fixed .contact ul li:focus, .fixed .contact ul li:link {
   color: #c20040;
 }
-/* line 258, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .fixed .contact ul a {
   color: #4d4d4d;
   opacity: 0.8;
 }
-/* line 261, ../sass/style.scss */
-.fixed .contact ul a:hover, .fixed .contact ul a:active, .fixed .contact ul a:focus {
+/* line 263, ../sass/style.scss */
+.fixed .contact ul a:hover, .fixed .contact ul a:active, .fixed .contact ul a:focus, .fixed .contact ul a:link {
   color: #c20040;
 }
-/* line 265, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .fixed .contact ul:first-child {
   margin-top: 12px;
 }
-/* line 268, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .fixed .contact ul:last-child {
   margin-bottom: 12px;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 .active-link {
   color: #c20040 !important;
 }
-/* line 276, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .active-link a {
   color: #c20040 !important;
 }
 
-/* line 280, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .plus {
   float: right !important;
   text-align: right;
   transition: all .3s ease-in;
 }
-/* line 283, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .plus:after {
   color: #4d4d4d;
   content: '\002B';
 }
 
-/* line 290, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .hover-minus, .active-minus {
   transition: all .3s ease-in;
 }
-/* line 291, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .hover-minus:after, .active-minus:after {
   color: #c20040;
   content: '\002D';
 }
 
-/* line 297, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .menu {
   overflow-y: auto;
   overflow-x: hidden;
@@ -960,40 +961,40 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   transition: all 1s ease-in-out;
 }
 @media (max-width: 320px) {
-  /* line 299, ../sass/style.scss */
+  /* line 301, ../sass/style.scss */
   .menu {
     padding: 50px 15px 10px 20px;
     overflow-y: auto;
   }
 }
-/* line 320, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .menu:focus {
   outline: 0;
 }
-/* line 324, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .menu a:link, .menu a:visited {
   text-align: left;
   text-decoration: none;
   color: #4d4d4d;
 }
-/* line 329, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .menu a:hover, .menu a:active {
   color: #c20040 !important;
 }
 
-/* line 333, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .menu--active {
   left: 0%;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 338, ../sass/style.scss */
 .menu:after {
   clear: both;
   content: '';
   display: table;
 }
 
-/* line 341, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .menu__item {
   text-decoration: none;
   list-style-type: none;
@@ -1004,20 +1005,20 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 351, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .menu__link {
   color: #4d4d4d;
   display: block;
   text-decoration: none;
 }
 
-/* line 356, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .menu__link:hover,
 .menu__link:focus {
   color: #c20040;
 }
 
-/* line 360, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .glow {
   margin: 0;
   transition: all 0.5s ease-in;
@@ -1031,12 +1032,12 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   opacity: .6;
 }
 
-/* line 372, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .glow--active {
   left: 0;
 }
 
-/* line 375, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .button-close {
   display: none;
   width: 40px;
@@ -1049,7 +1050,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   cursor: pointer;
   transition: all .5s ease-in;
 }
-/* line 387, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 .button-close .close:before, .button-close .close:after {
   position: absolute;
   bottom: 3px;
@@ -1058,16 +1059,16 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   width: 1px;
   background-color: #c20040;
 }
-/* line 395, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 .button-close .close:before {
   transform: rotate(45deg);
 }
-/* line 398, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .button-close .close:after {
   transform: rotate(-45deg);
 }
 
-/* line 402, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .btn--close {
   display: none;
   width: 40px;
@@ -1080,12 +1081,12 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   cursor: pointer;
   transition: all .5s ease-in;
 }
-/* line 413, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .btn--close line {
   stroke: #4d4d4d;
 }
 
-/* line 418, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 .submenu {
   list-style: none;
   margin: 0;
@@ -1107,30 +1108,30 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   transition: all 1s ease-in-out;
 }
 @media (max-width: 320px) {
-  /* line 420, ../sass/style.scss */
+  /* line 422, ../sass/style.scss */
   .submenu {
     padding: 40vh 15px 10px 20px;
     overflow-y: auto;
     overflow-x: hidden;
   }
 }
-/* line 444, ../sass/style.scss */
+/* line 446, ../sass/style.scss */
 .submenu a:link, .submenu a:visited {
   text-align: left;
   text-decoration: none;
   color: #4d4d4d;
 }
-/* line 449, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 .submenu a:hover, .submenu a:active {
   color: #c20040 !important;
 }
 
-/* line 454, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .submenu--active {
   right: 0%;
 }
 
-/* line 458, ../sass/style.scss */
+/* line 460, ../sass/style.scss */
 .submenu__link {
   text-decoration: none;
   list-style-type: none;
@@ -1139,13 +1140,13 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   display: block;
 }
 
-/* line 466, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 .submenu__link:hover,
 .submenu__link:active {
   color: #c20040;
 }
 
-/* line 471, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 .static {
   width: 100%;
   position: absolute;
@@ -1157,16 +1158,16 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   transition: all 1s ease-in;
 }
 @media (max-width: 320px) {
-  /* line 481, ../sass/style.scss */
+  /* line 483, ../sass/style.scss */
   .static {
     transition: all 0.3s ease-in;
   }
 }
-/* line 485, ../sass/style.scss */
+/* line 487, ../sass/style.scss */
 .static .share {
   display: none;
 }
-/* line 490, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 .static .contact {
   text-transform: uppercase;
   position: absolute;
@@ -1178,33 +1179,33 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   text-align: center;
   margin: 10px 0 10px 20px;
   padding: 5px 5px 0 5px;
-  width: 150px;
+  width: 170px;
   display: block;
   transition: 0.15s ease;
 }
-/* line 504, ../sass/style.scss */
-.static .contact:hover .arrow, .static .contact:active .arrow {
+/* line 506, ../sass/style.scss */
+.static .contact:hover .arrow, .static .contact:active .arrow, .static .contact:focus .arrow, .static .contact:link .arrow {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
   transform: rotate(45deg) translate(-5px, -5px);
 }
-/* line 508, ../sass/style.scss */
-.static .contact:hover .arrow:before, .static .contact:active .arrow:before {
+/* line 510, ../sass/style.scss */
+.static .contact:hover .arrow:before, .static .contact:active .arrow:before, .static .contact:focus .arrow:before, .static .contact:link .arrow:before {
   -webkit-transform: translate(10px, 0);
   transform: translate(10px, 0);
   background-color: #c20040;
 }
-/* line 513, ../sass/style.scss */
-.static .contact:hover .arrow:after, .static .contact:active .arrow:after {
+/* line 515, ../sass/style.scss */
+.static .contact:hover .arrow:after, .static .contact:active .arrow:after, .static .contact:focus .arrow:after, .static .contact:link .arrow:after {
   -webkit-transform: rotate(90deg) translate(10px, 0);
   transform: rotate(90deg) translate(10px, 0);
   background-color: #c20040;
 }
-/* line 518, ../sass/style.scss */
-.static .contact:hover ul, .static .contact:active ul, .static .contact:focus ul {
+/* line 520, ../sass/style.scss */
+.static .contact:hover ul, .static .contact:active ul, .static .contact:focus ul, .static .contact:link ul {
   opacity: 0.7;
   height: 120px;
 }
-/* line 523, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .static .contact .arrow {
   width: 13px;
   height: 13px;
@@ -1219,7 +1220,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   transform: rotate(45deg);
   float: right;
 }
-/* line 537, ../sass/style.scss */
+/* line 539, ../sass/style.scss */
 .static .contact .arrow:before, .static .contact .arrow:after {
   position: absolute;
   content: "";
@@ -1229,7 +1230,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   background-color: #fff;
   transition: 0.4s ease;
 }
-/* line 546, ../sass/style.scss */
+/* line 548, ../sass/style.scss */
 .static .contact .arrow:after {
   position: absolute;
   -webkit-transform: rotate(90deg);
@@ -1237,17 +1238,17 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   top: -5px;
   left: 5px;
 }
-/* line 554, ../sass/style.scss */
+/* line 556, ../sass/style.scss */
 .static .contact .click-text {
   display: block;
   text-align: left;
-  padding: 0 20px 5px;
+  padding: 0 30px 4px;
   margin: 0;
   cursor: pointer;
   color: #fff;
   transition: 0.15s ease;
 }
-/* line 564, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 .static .contact ul {
   background-color: transparent;
   padding: 0;
@@ -1257,7 +1258,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   opacity: 0;
   transition: 0.4s ease;
 }
-/* line 573, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 .static .contact ul li {
   list-style-type: none;
   margin: 0 auto;
@@ -1265,29 +1266,29 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   text-align: center;
   cursor: pointer;
 }
-/* line 579, ../sass/style.scss */
-.static .contact ul li:hover, .static .contact ul li:active, .static .contact ul li:focus {
+/* line 581, ../sass/style.scss */
+.static .contact ul li:hover, .static .contact ul li:active, .static .contact ul li:focus, .static .contact ul li:link {
   color: #c20040;
 }
-/* line 583, ../sass/style.scss */
+/* line 585, ../sass/style.scss */
 .static .contact ul a {
   color: #fff;
   opacity: 0.8;
 }
-/* line 586, ../sass/style.scss */
-.static .contact ul a:hover, .static .contact ul a:active, .static .contact ul a:focus {
+/* line 588, ../sass/style.scss */
+.static .contact ul a:hover, .static .contact ul a:active, .static .contact ul a:focus, .static .contact ul a:link {
   color: #c20040;
 }
-/* line 590, ../sass/style.scss */
+/* line 592, ../sass/style.scss */
 .static .contact ul:first-child {
   margin-top: 12px;
 }
-/* line 593, ../sass/style.scss */
+/* line 595, ../sass/style.scss */
 .static .contact ul:last-child {
   margin-bottom: 12px;
 }
 
-/* line 600, ../sass/style.scss */
+/* line 602, ../sass/style.scss */
 .scroll {
   width: 100px;
   background-color: transparent;
@@ -1302,21 +1303,21 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   cursor: pointer;
   transition: top 2s ease-in-out;
 }
-/* line 614, ../sass/style.scss */
+/* line 616, ../sass/style.scss */
 .scroll span {
   color: #fff;
 }
-/* line 617, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 .scroll:hover {
   top: -50px;
 }
 
-/* line 622, ../sass/style.scss */
+/* line 624, ../sass/style.scss */
 header {
   width: 100%;
   background-color: black;
 }
-/* line 625, ../sass/style.scss */
+/* line 627, ../sass/style.scss */
 header .overlay {
   background-image: linear-gradient(to left, black 20%, transparent 80%), linear-gradient(to top, black 20%, transparent 60%), linear-gradient(to bottom, black 10%, transparent 30%);
   width: 100%;
@@ -1328,7 +1329,7 @@ header .overlay {
   z-index: 10;
   transition: opacity .5s;
 }
-/* line 637, ../sass/style.scss */
+/* line 639, ../sass/style.scss */
 header:hover .overlay {
   opacity: .6;
   transition: opacity .5s;
@@ -1395,7 +1396,7 @@ header .carousel__item img {
     min-height: 300px;
   }
 }
-/* line 644, ../sass/style.scss */
+/* line 646, ../sass/style.scss */
 header .carousel__next {
   position: absolute;
   right: 2%;
@@ -1405,7 +1406,7 @@ header .carousel__next {
   z-index: 12;
   text-align: center;
 }
-/* line 653, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 header label[for=carousel-1], header label[for=carousel-2] {
   text-align: center;
   display: inline-block;
@@ -1415,19 +1416,19 @@ header label[for=carousel-1], header label[for=carousel-2] {
   background-color: white;
   opacity: .6;
 }
-/* line 661, ../sass/style.scss */
+/* line 663, ../sass/style.scss */
 header label[for=carousel-1]:hover, header label[for=carousel-1]:active, header label[for=carousel-2]:hover, header label[for=carousel-2]:active {
-  transform: rotate(360deg);
+  transition: all .3s ease-in;
   border: 1px dotted black;
   box-shadow: 0 0 0 3px white;
   opacity: 1;
 }
-/* line 668, ../sass/style.scss */
+/* line 670, ../sass/style.scss */
 header label + label {
   margin-top: 5px;
 }
 
-/* line 674, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 .hamburger {
   left: 0;
   z-index: 101;
@@ -1435,40 +1436,40 @@ header label + label {
   color: #fff;
   margin-left: 0;
 }
-/* line 681, ../sass/style.scss */
+/* line 683, ../sass/style.scss */
 .hamburger-box {
   margin-right: 15px;
 }
-/* line 684, ../sass/style.scss */
+/* line 686, ../sass/style.scss */
 .hamburger-label {
   color: #fff;
   text-transform: uppercase;
 }
 @media (max-width: 320px) {
-  /* line 690, ../sass/style.scss */
+  /* line 692, ../sass/style.scss */
   .hamburger .is-active .hamburger {
     padding-left: 0 !important;
     margin-right: 10px;
   }
-  /* line 694, ../sass/style.scss */
+  /* line 696, ../sass/style.scss */
   .hamburger .is-active span {
     color: #c20040 !important;
   }
-  /* line 697, ../sass/style.scss */
+  /* line 699, ../sass/style.scss */
   .hamburger .is-active .hamburger-inner, .hamburger .is-active .hamburger-inner:after, .hamburger .is-active .hamburger-inner:before {
     background-color: #c20040 !important;
   }
 }
 
-/* line 704, ../sass/style.scss */
+/* line 706, ../sass/style.scss */
 .is-active {
   color: #c20040 !important;
 }
-/* line 706, ../sass/style.scss */
+/* line 708, ../sass/style.scss */
 .is-active span {
   color: #c20040 !important;
 }
-/* line 709, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 .is-active .hamburger-inner, .is-active .hamburger-inner:after, .is-active .hamburger-inner:before {
   background-color: #c20040 !important;
 }
