@@ -67,7 +67,6 @@ $(document).ready(function() {
         });
         $('.menu__link').on({
             click: function (e) {
-                $(this).toggleClass('active-link').find('.plus').toggleClass('active-minus');
                 $(this.hash)
                     .toggleClass('submenu--active')
                     .append($('.btn--close').show())

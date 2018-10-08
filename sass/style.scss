@@ -445,12 +445,10 @@ body {
   position: fixed;
   top:0;
   overflow-x: hidden; //visible on mobile
-  z-index:99;
+  z-index:101;
   background-color: $color-white;
   right:-60%;
-  &:focus {
-    outline:0;
-  }
+  webkit-transform: translate3d(0,0,0);
 
   a:link, a:visited {
     text-align: left;
