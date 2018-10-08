@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    document.addEventListener("touchstart", function () {
-    }, false);
+    // document.addEventListener("touchstart", function () {
+    // }, false);
     /*Carousel functions*/
     var animationSpeed = 1000;
 
