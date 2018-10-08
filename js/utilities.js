@@ -67,26 +67,42 @@ $(document).ready(function() {
         });
         $('.menu__link').on({
             click: function (e) {
+                $(this).toggleClass('active-link').find('.plus').toggleClass('active-minus');
                 $(this.hash)
                     .toggleClass('submenu--active')
-                    .append(close.show())
+                    .append($('.btn--close').show())
                     .focus();
                 e.preventDefault();
 
             },
+            'mouseenter mouseleave': function() {
+                $(this).find('.plus').toggleClass('hover-minus');
+            },
             focusout: function () {
                 $(this.hash).data('submenuTimer', setTimeout(function () {
                     $(this.hash).removeClass('submenu--active');
+                    $(this).removeClass('active-link').find('.plus').removeClass('active-minus')
+
                 }.bind(this), 0));
             },
             focusin: function () {
                 clearTimeout($(this.hash).data('submenuTimer'));
             }
         });
+        /*Close button on second-level*/
+        $('.btn--close').on({
+            click: function (e) {
+                $('.submenu').focusout();
+            },
+            'mouseenter mouseleave': function (e) {
+                $(this).toggleClass('animated pulse')
+            }
+        })
         $('.submenu').on({
             focusout: function () {
                 $(this).data('submenuTimer', setTimeout(function () {
                     $(this).removeClass('submenu--active');
+                    $('.menu__link').removeClass('active-link').find('.plus').removeClass('active-minus')
                 }.bind(this), 0));
             },
             focusin: function () {
@@ -95,6 +111,7 @@ $(document).ready(function() {
             keydown: function (e) {
                 if (e.which === 27) {
                     $(this).removeClass('submenu--active');
+                    $('.menu__link').removeClass('active-link').find('.plus').removeClass('active-minus')
                     e.preventDefault();
                 }
             }

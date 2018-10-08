@@ -40,6 +40,7 @@ PAGE
   font-family: $font-family-text;
   color: $color-dark-grey;
   outline:0;
+  font-size: 0.95em;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
     cursor: pointer;
     z-index: 7;
     color: $color-white;
-    font-size: 30px;
+    font-size: 2.45em;
     font-family: TrojanProRegular;
     text-align: center;
     text-decoration: none;
@@ -161,7 +162,6 @@ body {
     }
     &-label {
       text-transform: uppercase;
-      font-size: 17px;
     }
     .is-active{
       @include breakpoint(sm) {
@@ -186,7 +186,6 @@ body {
     z-index: 7;
     cursor: pointer;
     color: $color-dark-grey;
-    font-size: 17px;
     text-align: center;
     width: 170px;
     display: block;
@@ -284,14 +283,37 @@ body {
     }
   }
 }
+.active-link{
+  color: $color-pink!important;
+  a{
+    color: $color-pink!important;
+  }
+}
+.plus{
+  float: right!important;
+  text-align: right;
+  &:after {
+    color: $color-dark-grey;
+    content: '\002B';
+  }
+  transition: all .3s ease-in;
+}
 
+.hover-minus, .active-minus{
+  &:after {
+    color: $color-pink;
+    content: '\002D';
+  }
+  transition: all .3s ease-in;
+}
 .menu{
   @include breakpoint(sm) {
     & {
       padding: 50px 15px 10px 20px;
-      overflow-y: visible;
+      overflow-y: auto;
     }
   }
+  overflow-y: auto;
   list-style: none;
   margin: 0;
   pointer-events: auto;
@@ -302,7 +324,6 @@ body {
   text-align: left;
   position: absolute;
   top:0;
-  overflow-y: hidden; //visible on mobile
   z-index:100;
   background-color: $color-white;
   left:-60%;
@@ -331,7 +352,6 @@ body {
 }
 .menu__item {
   text-decoration: none;
-  font-size: 15px;
   list-style-type: none;
   text-transform: uppercase;
   padding: 15px 0 5px 0;
@@ -391,11 +411,27 @@ body {
     transform: rotate(-45deg);
   }
 }
+.btn--close{
+  display: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all .5s ease-in;
+  line{
+    stroke: $color-dark-grey;
+  }
+}
+
 .submenu {
   @include breakpoint(sm) {
     & {
-      padding: 50px 15px 10px 20px;
-      overflow-y: visible;
+      padding: 40vh 15px 10px 20px;
+      overflow-y: auto;
     }
   }
   list-style: none;
@@ -403,12 +439,12 @@ body {
   pointer-events: auto;
   width: 50%;
   height: 100vh;
-  padding: 80px 40px 20px 40px;
+  padding: 40vh 40px 20px 40px;
   box-shadow: 5px 5px 20px $color-dark-grey;
   text-align: left;
   position: fixed;
   top:0;
-  overflow-y: hidden; //visible on mobile
+  overflow-x: hidden; //visible on mobile
   z-index:99;
   background-color: $color-white;
   right:-60%;
@@ -432,13 +468,10 @@ body {
 
 .submenu__link {
   text-decoration: none;
-  font-size: 15px;
   list-style-type: none;
   text-transform: uppercase;
   padding: 15px 0 5px 0;
   display: block;
-  margin: 10px 0 10px;
-  border-bottom: 1px solid $color-light-grey;
 }
 
 .submenu__link:hover,
@@ -452,7 +485,6 @@ body {
   top:0;
   height:60px;
   text-transform: uppercase;
-  font-size: 17px;
   z-index: 10;
   text-align: center;
   transition: all 1s ease-in;
@@ -479,7 +511,6 @@ body {
     &-label {
       color: $color-white;
       text-transform: uppercase;
-      font-size: 17px;
     }
     .is-active {
       @include breakpoint(sm) {
@@ -505,7 +536,6 @@ body {
     z-index: 7;
     cursor: pointer;
     color: $color-white;
-    font-size: 17px;
     text-align: center;
     margin: 20px 5px 20px 20px;
     padding: 5px 5px 0px 5px;
