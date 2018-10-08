@@ -110,10 +110,10 @@ $(document).ready(function() {
             var drawLength = pathLength * scrollPercentage;
             path.style.strokeDashoffset = pathLength - drawLength;
             if (scrollPercentage) {
-                stickyNav.removeClass('static slideInUp').addClass("fixed animated slideInDown");
+                stickyNav.removeClass('static').addClass("fixed");
             }
             else {
-                stickyNav.removeClass("fixed slideInDown").addClass('static animated slideInUp');
+                stickyNav.removeClass("fixed").addClass('static');
             }
         });
     });
