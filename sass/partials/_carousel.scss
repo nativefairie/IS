@@ -158,6 +158,7 @@ BREAKPOINTS
       -webkit-transition: opacity 1s;
       img {
         width: 100vw;
+        min-height: 400px;
       }
       @include breakpoint(sm){
         &{
@@ -166,6 +167,12 @@ BREAKPOINTS
         }
         img {
           width: 200vw;
+          min-height: 300px;
+        }
+      }
+      @include breakpoint(md){
+        img {
+          min-height: 300px;
         }
       }
     }

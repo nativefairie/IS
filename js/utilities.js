@@ -1,6 +1,8 @@
 $(document).ready(function() {
     // document.addEventListener("touchstart", function () {
     // }, false);
+    var doc = document.documentElement;
+    doc.setAttribute('data-useragent', navigator.userAgent);
     /*Carousel functions*/
     var animationSpeed = 1000;
 
@@ -67,6 +69,7 @@ $(document).ready(function() {
         });
         $('.menu__link').on({
             click: function (e) {
+                $(this).toggleClass('active-link').find('.plus').toggleClass('active-minus');
                 $(this.hash)
                     .toggleClass('submenu--active')
                     .append($('.btn--close').show())
