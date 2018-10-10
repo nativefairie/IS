@@ -456,6 +456,7 @@ body {
   z-index:999;
   transform: translate3d(0,0,101px);
   -webkit-transform: translateZ(101px);
+  -webkit-overflow-scrolling: touch;
 }
 
 .submenu__link {
