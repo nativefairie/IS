@@ -45,7 +45,6 @@ PAGE
 
 body {
   margin: 0;
-  overflow-x: hidden;
   color: $color-dark-grey;
   p{
     margin: 0;
@@ -54,7 +53,7 @@ body {
   .logo {
     width: 250px;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: calc(50% - 125px);
     cursor: pointer;
     z-index: 7;
@@ -332,7 +331,7 @@ body {
   }
 }
 .menu--active{
-  left:0%;
+  left:0;
 }
 .menu:after {
   clear: both;
