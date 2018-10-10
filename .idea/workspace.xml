@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10c16e5b-35d5-4617-9152-0bc363a1668e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +53,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2266" />
           <entry key="js" value="10220" />
-          <entry key="scss" value="9536" />
+          <entry key="scss" value="9552" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -60,7 +63,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2266" />
           <entry key="JavaScript" value="10220" />
-          <entry key="SCSS" value="9536" />
+          <entry key="SCSS" value="9552" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -83,8 +86,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="423" column="12" selection-start-line="423" selection-start-column="12" selection-end-line="423" selection-end-column="12" />
+              <folding>
+                <element signature="e#3654#6161#0" />
+                <element signature="e#6082#6170#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sm</find>
       <find>is-</find>
       <find>is-a</find>
       <find>close</find>
@@ -140,6 +146,7 @@
       <find>contact</find>
       <find>pointer</find>
       <find>translate</find>
+      <find>overflow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,7 +274,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317931000" />
+    <option name="totallyTimeSpent" value="318658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -451,8 +458,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="423" column="12" selection-start-line="423" selection-start-column="12" selection-end-line="423" selection-end-column="12" />
+          <folding>
+            <element signature="e#3654#6161#0" />
+            <element signature="e#6082#6170#0" />
+          </folding>
         </state>
       </provider>
     </entry>
