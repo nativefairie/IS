@@ -52,7 +52,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2266" />
           <entry key="js" value="10220" />
-          <entry key="scss" value="9514" />
+          <entry key="scss" value="9522" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -62,7 +62,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2266" />
           <entry key="JavaScript" value="10220" />
-          <entry key="SCSS" value="9514" />
+          <entry key="SCSS" value="9522" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="437" column="18" lean-forward="true" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
+            <state relative-caret-position="400">
+              <caret line="444" column="13" lean-forward="true" selection-start-line="444" selection-start-column="13" selection-end-line="444" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -269,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315448000" />
+    <option name="totallyTimeSpent" value="315722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -453,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="437" column="18" lean-forward="true" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
+        <state relative-caret-position="400">
+          <caret line="444" column="13" lean-forward="true" selection-start-line="444" selection-start-column="13" selection-end-line="444" selection-end-column="13" />
         </state>
       </provider>
     </entry>
