@@ -438,10 +438,9 @@ body {
   position: fixed;
   top:0;
   overflow-x: hidden; //visible on mobile
-  z-index:101;
+  z-index:999;
   background-color: $color-white;
   right:-60%;
-  webkit-transform: translate3d(0,0,0);
 
   a:link, a:visited {
     text-align: left;

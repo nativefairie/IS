@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10c16e5b-35d5-4617-9152-0bc363a1668e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/utilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +52,7 @@
           <entry key="css" value="14" />
           <entry key="html" value="2266" />
           <entry key="js" value="10220" />
-          <entry key="scss" value="9511" />
+          <entry key="scss" value="9514" />
           <entry key="svg" value="80" />
         </counts>
       </usages-collector>
@@ -61,7 +62,7 @@
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2266" />
           <entry key="JavaScript" value="10220" />
-          <entry key="SCSS" value="9511" />
+          <entry key="SCSS" value="9514" />
           <entry key="SVG" value="80" />
         </counts>
       </usages-collector>
@@ -75,26 +76,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="159" column="18" selection-end-line="169" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="668" column="3" lean-forward="true" selection-start-line="668" selection-start-column="3" selection-end-line="668" selection-end-column="3" />
+            <state relative-caret-position="2082">
+              <caret line="156" column="30" lean-forward="true" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="437" column="18" lean-forward="true" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/utilities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -111,7 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>is</find>
       <find>sm</find>
       <find>is-</find>
       <find>is-a</find>
@@ -141,6 +141,7 @@
       <find>inse</find>
       <find>contact</find>
       <find>pointer</find>
+      <find>translate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,8 +165,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="E:/unstyle.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/js/utilities.js" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
       </list>
     </option>
   </component>
@@ -213,55 +214,6 @@
             <path>
               <item name="IS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="0a60b06b4438e925d799e68659c9ac24d928fa76" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="01bc2339b15b8870eca2996704534f069143b846" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="bf428b775fd6ceda5ae19d4aea57dcd45826f094" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="fe0fb41c95423eadf12dca875bf879286525d693" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315310000" />
+    <option name="totallyTimeSpent" value="315448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
@@ -487,22 +439,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utilities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="159" column="18" selection-end-line="169" />
+        <state relative-caret-position="2082">
+          <caret line="156" column="30" lean-forward="true" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="668" column="3" lean-forward="true" selection-start-line="668" selection-start-column="3" selection-end-line="668" selection-end-column="3" />
+        <state relative-caret-position="281">
+          <caret line="437" column="18" lean-forward="true" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
         </state>
       </provider>
     </entry>
