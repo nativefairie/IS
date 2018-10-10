@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10c16e5b-35d5-4617-9152-0bc363a1668e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/bf428b775fd6ceda5ae19d4aea57dcd45826f094/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/utilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,7 +50,7 @@
         <counts>
           <entry key="css" value="14" />
           <entry key="html" value="2266" />
-          <entry key="js" value="10168" />
+          <entry key="js" value="10220" />
           <entry key="scss" value="9511" />
           <entry key="svg" value="80" />
         </counts>
@@ -63,7 +60,7 @@
           <entry key="CSS" value="2" />
           <entry key="Enforced Plain Text" value="12" />
           <entry key="HTML" value="2266" />
-          <entry key="JavaScript" value="10168" />
+          <entry key="JavaScript" value="10220" />
           <entry key="SCSS" value="9511" />
           <entry key="SVG" value="80" />
         </counts>
@@ -78,48 +75,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            <state relative-caret-position="297">
+              <caret line="159" column="18" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="668" column="3" lean-forward="true" selection-start-line="668" selection-start-column="3" selection-end-line="668" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="583" column="7" lean-forward="true" selection-start-line="583" selection-start-column="7" selection-end-line="583" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/utilities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/unstyle.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
-              <folding>
-                <element signature="e#891#1224#0" />
-                <element signature="e#1250#1334#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/partials/_carousel.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="79">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -189,8 +164,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="E:/unstyle.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_carousel.scss" />
-        <option value="$PROJECT_DIR$/js/utilities.js" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/js/utilities.js" />
       </list>
     </option>
   </component>
@@ -200,8 +175,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="113" />
     <option name="width" value="726" />
     <option name="height" value="780" />
   </component>
@@ -241,41 +217,51 @@
             <path>
               <item name="IS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IS" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IS" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="0a60b06b4438e925d799e68659c9ac24d928fa76" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IS" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="01bc2339b15b8870eca2996704534f069143b846" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IS" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="bf428b775fd6ceda5ae19d4aea57dcd45826f094" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IS" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="fe0fb41c95423eadf12dca875bf879286525d693" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IS" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IS" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="normalize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IS" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,13 +317,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314780000" />
+    <option name="totallyTimeSpent" value="315310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21457087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21457087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -501,22 +487,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utilities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="79">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        <state relative-caret-position="297">
+          <caret line="159" column="18" selection-end-line="169" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="583" column="7" lean-forward="true" selection-start-line="583" selection-start-column="7" selection-end-line="583" selection-end-column="7" />
+        <state relative-caret-position="320">
+          <caret line="668" column="3" lean-forward="true" selection-start-line="668" selection-start-column="3" selection-end-line="668" selection-end-column="3" />
         </state>
       </provider>
     </entry>

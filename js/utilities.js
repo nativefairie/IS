@@ -28,7 +28,7 @@ $(document).ready(function() {
     $('.overlay').height(childHeight);
     $('header').height(childHeight);
     $parent.innerHeight(childHeight);
-    $(window).resize(function () {
+    $(window).on('load resize', function () {
         var childHeight = $child.height();
         $parent.height(childHeight);
         $('header').height(childHeight);
