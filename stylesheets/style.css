@@ -950,7 +950,7 @@ html[data-useragent*='MSIE 9.0'] .fixed .share {
   height: 100vh;
   padding: 80px 40px 20px 40px;
   text-align: left;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 100;
   background-color: #fff;
